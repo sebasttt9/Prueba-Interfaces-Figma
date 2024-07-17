@@ -1,77 +1,53 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #F4A698;
-    font-family: Arial, sans-serif;
-  }
+
+  margin: 0;
+  background-color: #EC8043;
   
-  .container {
-    text-align: center;
-    background-color: #E88E83;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
   
-  .header {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-  }
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+ 
   
-  .header img {
-    width: 50px;
-    height: 50px;
-  }
+}
+
+.header img {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  width: 20rem;
+
+}
+
+
+
+
+
+
+.login-form button {
+  width: 90%;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  background-color: #D9D9D9;
+  color: black;
+  font-size: 30px;
+  font-family:'Jokerman', sans-serif ;
+  text-decoration: none;
   
-  h1 {
-    font-size: 24px;
-    color: #333;
-  }
+}
+
+.login-form button:nth-last-child(5){
+
+  background-color: #FBEFEF;
   
-  .login-form {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 10px;
-  }
   
-  .login-form input {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
+}
+.login-form button img {
+  width: 1.5rem;
+  margin-left: 1rem
   
-  .login-form button {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #FF6D6D;
-    color: white;
-    font-size: 16px;
-  }
   
-  .forgot-password {
-    margin: 10px 0;
-  }
   
-  .forgot-password a {
-    color: #333;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  h2 {
-    font-size: 18px;
-    color: #333;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-  }
-  
+}
