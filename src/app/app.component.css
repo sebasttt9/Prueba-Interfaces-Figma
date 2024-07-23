@@ -1,8 +1,14 @@
-body{
-  background-color: aquamarine;
+
+body {
+
+  margin: 0;
+  background-color: #f1eaea;
+  font-family: Arial, sans-serif;
+  
 }
 
-p{
-  color: red;
-
+a{
+  text-decoration: none;
+  margin-left: 1rem;
+  color: black;
 }
