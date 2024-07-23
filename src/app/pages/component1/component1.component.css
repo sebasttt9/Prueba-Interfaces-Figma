@@ -1,0 +1,106 @@
+
+body {
+
+    margin: 0;
+    background-color: #E59595;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    
+  }
+  .logo {
+    margin-top: 5rem;
+    }
+  .logo img{
+  max-width: 20rem;
+  }
+  
+  .header img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #000;
+    font-family: 'Jokerman', sans-serif;
+    margin-top: 3rem;
+    font-weight: normal;
+                          
+  }
+  
+  .login-form {
+    background-color: white;
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    align-items: center;
+    max-width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    box-shadow: 0px 1px 4px black;
+    
+  }
+  
+  .login-form input {
+   
+    padding: 15px ;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    font-style: oblique;
+    opacity: 0.8;
+    font-size: 16px;
+  
+  }
+  
+  
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    
+    background-color: #000;
+    
+  }
+  .login-form a {
+    color: white;
+    font-size: 16px;
+    font-family:'Jokerman', sans-serif ;
+    text-decoration: none;
+    
+  }
+  
+  .forgot-password {
+    margin: 1rem 0;
+    font-size: 16px;
+    font-family: 'Inria Serif';
+    text-shadow: 0px 1px 4px #000000;
+  
+    
+  }
+  
+  .forgot-password a {
+    color: #ffff;
+    
+  
+  }
+  
+  h2 {
+    font-size: 32px;
+    color: #ffff;
+    font-weight:normal;
+    font-family: 'Jokerman', sans-serif;
+    -webkit-text-stroke: 0.7px black;
+    max-width: 60%;
+    margin: 6rem auto auto auto;
+    text-shadow: 0px 4px 4px black;
+  }
